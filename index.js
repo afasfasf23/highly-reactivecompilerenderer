@@ -1,6 +1,1 @@
-const number = 10;
-if (number % 2 === 0) {
-  console.log("Even number");
-} else {
-  console.log("Odd number");
-}
+const capitalize = (str) => str[0].toUpperCase() + str.slice(1);
